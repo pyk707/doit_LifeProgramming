@@ -20,7 +20,7 @@ x = lambda a, b : a + b
 print(x(1,2))
 print()
 
-littlePrince = "여섯 살 적에 나는 '체험한 이야기'라는 제목의, 원시림에 관한 책에서"
+littlePrince = "여섯 살 적에 나는 라는 제목의, 원시림에 관한 책에서"
 short = lambda z : z[:10]
 
-short(littlePrince)
+print(short(littlePrince))
