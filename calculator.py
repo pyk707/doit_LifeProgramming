@@ -10,9 +10,10 @@
 
 #round(a/b, 1) 나누고 소수점 1의 자리까지만 표시
 
+
 #lambda?
 
-y = lambda x : 3 * x
+""" y = lambda x : 3 * x
 print(y(12))
 print()
 
@@ -23,4 +24,12 @@ print()
 littlePrince = "여섯 살 적에 나는 라는 제목의, 원시림에 관한 책에서"
 short = lambda z : z[:10]
 
-print(short(littlePrince))
+print(short(littlePrince)) """
+
+
+# def
+
+def add(a, b):
+    return a+b
+
+print(add(3,4))
