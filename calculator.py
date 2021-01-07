@@ -27,9 +27,35 @@ short = lambda z : z[:10]
 print(short(littlePrince)) """
 
 
-# def
+# def의 활용
 
-def add(a, b):
-    return a+b
+""" def calculator(a, b):
+    return a+b, a-b, a+b, a/b
 
-print(add(3,4))
+print(calculator(12,3))     #튜플로 반환 """
+
+
+#input 함수로 입력 받기
+
+a=input('숫자를 하나 입력하면 짝수인지 홀수인지 구분합니다 : ')
+a=float(a)
+a=round(a,1) 
+print(a)
+type(a)
+
+
+#if 함수 사용하기
+
+def seperate():
+    a=input('숫자를 하나 입력하면 짝수인지 홀수인지 구분합니다 : ')
+    
+    a=float(a)
+    a=round(a,1) 
+    print(a)
+    type(a)
+    
+    if a % 2 == 0:
+        print('입력값은 짝수ㅋ')
+    else:
+        print('입력값은 홀수ㅋ')
+
