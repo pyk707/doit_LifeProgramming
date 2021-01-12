@@ -20,6 +20,8 @@ print(os.listdir()) """
 
 """ f = open('test.txt', 'a')   #해당 파일을 추가 모드로 불러옴
 f.write('회사에 가지 않을 날이 올까?')
+
+
 f.close()
 f = open('test.txt', 'r')   #해당 파일을 읽기 모드로 불러옴
 print(f.read())
