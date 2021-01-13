@@ -56,3 +56,9 @@ for i in characters_set:
 print(characters_set_sub)
 
 
+
+#지문만 출력하기
+
+#지문 출력 패턴이 다음과 같음 
+
+re.findall(r'\([a-zA-Z].+[a-z|.]\)', script101)
