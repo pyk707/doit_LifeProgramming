@@ -3,4 +3,6 @@
 
 for i in range(10):
 	print(str(i) + '번째 인사')
-	
+
+
+print("안녕하세요"[:3])
